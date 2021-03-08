@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AC4D8EF25B71C9100B02108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D8EE25B71C9100B02108 /* AppDelegate.swift */; };
+		7AC4D8F125B71C9100B02108 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D8F025B71C9100B02108 /* SceneDelegate.swift */; };
+		7AC4D8F325B71C9100B02108 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D8F225B71C9100B02108 /* DetailViewController.swift */; };
+		7AC4D8F625B71C9100B02108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC4D8F425B71C9100B02108 /* Main.storyboard */; };
+		7AC4D8F825B71C9400B02108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AC4D8F725B71C9400B02108 /* Assets.xcassets */; };
+		7AC4D8FB25B71C9400B02108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AC4D8F925B71C9400B02108 /* LaunchScreen.storyboard */; };
+		7AC4D90525B71DDA00B02108 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7AC4D90425B71DDA00B02108 /* Alamofire */; };
+		7AC4D90825B7222700B02108 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D90725B7222700B02108 /* Pokemon.swift */; };
+		7AC4D91025B7508A00B02108 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4D90F25B7508A00B02108 /* TableViewController.swift */; };
+		7AFB9E0425BDCEF800AD7754 /* Pokemons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFB9E0325BDCEF800AD7754 /* Pokemons.swift */; };
+		7AFB9E0825BDE1A400AD7754 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 7AFB9E0725BDE1A400AD7754 /* SwiftyJSON */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AC4D8EB25B71C9100B02108 /* PokemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AC4D8EE25B71C9100B02108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AC4D8F025B71C9100B02108 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7AC4D8F225B71C9100B02108 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7AC4D8F525B71C9100B02108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AC4D8F725B71C9400B02108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AC4D8FA25B71C9400B02108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AC4D8FC25B71C9400B02108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AC4D90725B7222700B02108 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		7AC4D90F25B7508A00B02108 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7AFB9E0325BDCEF800AD7754 /* Pokemons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemons.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AC4D8E825B71C9100B02108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFB9E0825BDE1A400AD7754 /* SwiftyJSON in Frameworks */,
+				7AC4D90525B71DDA00B02108 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AC4D8E225B71C9100B02108 = {
+			isa = PBXGroup;
+			children = (
+				7AC4D8ED25B71C9100B02108 /* PokemonApp */,
+				7AC4D8EC25B71C9100B02108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AC4D8EC25B71C9100B02108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AC4D8EB25B71C9100B02108 /* PokemonApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AC4D8ED25B71C9100B02108 /* PokemonApp */ = {
+			isa = PBXGroup;
+			children = (
+				7AC4D8EE25B71C9100B02108 /* AppDelegate.swift */,
+				7AC4D8F025B71C9100B02108 /* SceneDelegate.swift */,
+				7AC4D8F225B71C9100B02108 /* DetailViewController.swift */,
+				7AC4D90725B7222700B02108 /* Pokemon.swift */,
+				7AFB9E0325BDCEF800AD7754 /* Pokemons.swift */,
+				7AC4D8F425B71C9100B02108 /* Main.storyboard */,
+				7AC4D90F25B7508A00B02108 /* TableViewController.swift */,
+				7AC4D8F725B71C9400B02108 /* Assets.xcassets */,
+				7AC4D8F925B71C9400B02108 /* LaunchScreen.storyboard */,
+				7AC4D8FC25B71C9400B02108 /* Info.plist */,
+			);
+			path = PokemonApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AC4D8EA25B71C9100B02108 /* PokemonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AC4D8FF25B71C9400B02108 /* Build configuration list for PBXNativeTarget "PokemonApp" */;
+			buildPhases = (
+				7AC4D8E725B71C9100B02108 /* Sources */,
+				7AC4D8E825B71C9100B02108 /* Frameworks */,
+				7AC4D8E925B71C9100B02108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonApp;
+			packageProductDependencies = (
+				7AC4D90425B71DDA00B02108 /* Alamofire */,
+				7AFB9E0725BDE1A400AD7754 /* SwiftyJSON */,
+			);
+			productName = PokemonApp;
+			productReference = 7AC4D8EB25B71C9100B02108 /* PokemonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AC4D8E325B71C9100B02108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7AC4D8EA25B71C9100B02108 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7AC4D8E625B71C9100B02108 /* Build configuration list for PBXProject "PokemonApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AC4D8E225B71C9100B02108;
+			packageReferences = (
+				7AC4D90325B71DDA00B02108 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7AFB9E0625BDE1A400AD7754 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 7AC4D8EC25B71C9100B02108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AC4D8EA25B71C9100B02108 /* PokemonApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AC4D8E925B71C9100B02108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC4D8FB25B71C9400B02108 /* LaunchScreen.storyboard in Resources */,
+				7AC4D8F825B71C9400B02108 /* Assets.xcassets in Resources */,
+				7AC4D8F625B71C9100B02108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AC4D8E725B71C9100B02108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC4D8F325B71C9100B02108 /* DetailViewController.swift in Sources */,
+				7AFB9E0425BDCEF800AD7754 /* Pokemons.swift in Sources */,
+				7AC4D90825B7222700B02108 /* Pokemon.swift in Sources */,
+				7AC4D8EF25B71C9100B02108 /* AppDelegate.swift in Sources */,
+				7AC4D91025B7508A00B02108 /* TableViewController.swift in Sources */,
+				7AC4D8F125B71C9100B02108 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AC4D8F425B71C9100B02108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AC4D8F525B71C9100B02108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AC4D8F925B71C9400B02108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AC4D8FA25B71C9400B02108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AC4D8FD25B71C9400B02108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AC4D8FE25B71C9400B02108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AC4D90025B71C9400B02108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRZ8F7ANN;
+				INFOPLIST_FILE = PokemonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = km.PokemonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7AC4D90125B71C9400B02108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SXRZ8F7ANN;
+				INFOPLIST_FILE = PokemonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = km.PokemonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AC4D8E625B71C9100B02108 /* Build configuration list for PBXProject "PokemonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC4D8FD25B71C9400B02108 /* Debug */,
+				7AC4D8FE25B71C9400B02108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AC4D8FF25B71C9400B02108 /* Build configuration list for PBXNativeTarget "PokemonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC4D90025B71C9400B02108 /* Debug */,
+				7AC4D90125B71C9400B02108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AC4D90325B71DDA00B02108 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+		7AFB9E0625BDE1A400AD7754 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7AC4D90425B71DDA00B02108 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AC4D90325B71DDA00B02108 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7AFB9E0725BDE1A400AD7754 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AFB9E0625BDE1A400AD7754 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7AC4D8E325B71C9100B02108 /* Project object */;
+}
